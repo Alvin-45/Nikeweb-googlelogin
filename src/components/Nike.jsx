@@ -15,12 +15,12 @@ function Nike() {
         <div className="bdy bg-light" style={{width:'93%'}}>
           
       <div className="row" id='home'>
-        <div className="col-8">
-            <h1 style={{fontSize:'75px'}}>Summer <br />Collections</h1>
+        <div className="col-sm-8">
+            <h1 id='hd1'>Summer <br />Collections</h1>
             <h2 className="text-danger" style={{fontSize:'55px'}}>2024</h2>
             <p>Find your shoes from our various collection of shoes</p>
             <button className="btn btn-danger">Shop More <i className="fa-solid fa-arrow-right"></i></button>
-            <div className='d-flex justify-content-around mt-5 w-75'>
+            <div className='d-flex justify-content-around mt-5 w-75 flex-wrap'>
                 <a className='link' href='#'>
                     <div className="bg-dark rounded d-flex justify-content-evenly" style={{width:'190px',border:'2px solid',height:'100px'}}>
                         <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5b0981ff-45f8-40c3-9372-32430a62aaea/dunk-high-womens-shoes-LwCxXJ.png" style={{width:'90px'}} alt="shoe" />
@@ -44,27 +44,29 @@ function Nike() {
                 </a>
             </div>
         </div>
-        <div className="col"  style={{position:'relative'}}>
-            <div className="bg1 rounded" style={{position:'absolute',zIndex:'10',width:'390px',height:'400px'}}>
+        <div className="col-sm-4"  style={{position:'relative'}}>
+            <div className="bg1 rounded" style={{position:'absolute',zIndex:'10'}}>
                 <h1 className="text-light hd1 text-center">NIKE</h1>
                 <div className='text-end' style={{marginTop:'150px'}}>
-                    <p className="fw-bolder me-2">NIKE JORDAN</p>
-                    <h5 className="text-danger me-4 fw-bolder ">₹1200</h5>
+                    <p className="nk fw-bolder me-2">NIKE JORDAN</p>
+                    <h5 className="nk text-danger me-4 fw-bolder ">₹1200</h5>
                 </div>
             </div>
-            <img src={shoe} alt="" className='ss1'  style={{position:'absolute',zIndex:'25',marginTop:'60px',width:'350px'}}/>
+            <img src={shoe} alt="" className='ss1'  style={{position:'absolute',zIndex:'25'}}/>
         </div>
       </div>
-      <div className="row mt-5 text-center">
-        <div className="col">
-            <h5 className="text-danger">20k+ <span className="text-dark">Orders Completed</span></h5>
-        </div>
-        <div className="col">
-            <h5 className="text-danger">40k+ <span className="text-dark">Regular Visitors</span></h5>
-        </div>
-        <div className="col">
-            <h5 className="text-danger">15k+ <span className="text-dark">Happy Customers</span></h5>
-        </div>
+      <div className='list3'>
+          <div className="row mt-5 text-center ">
+            <div className="col">
+                <h5 className="text-danger">20k+ <span className="text-dark">Orders Completed</span></h5>
+            </div>
+            <div className="col">
+                <h5 className="text-danger">40k+ <span className="text-dark">Regular Visitors</span></h5>
+            </div>
+            <div className="col">
+                <h5 className="text-danger">15k+ <span className="text-dark">Happy Customers</span></h5>
+            </div>
+          </div>
       </div>
       
         </div>

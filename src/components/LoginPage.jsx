@@ -69,25 +69,25 @@ function LoginPage() {
 
     return (
         <>
-           <div className='lfull' style={{ height: '100vh' }}>
+           <div className='lfull' style={{ height: '130vh' }}>
                 <div className="mainDiv" >
     
                     <div className='brd2'>
                         <div className="row ">
                             <div className="col-lg-6">
-                                <img src="https://c.static-nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/tpqid8vgfey6m4ke86te/123-joyride-cdp-apla-xa-xp.jpg" width={'100%'} height={'613px'} className='imgbdr'></img>
+                                <img src="https://c.static-nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/tpqid8vgfey6m4ke86te/123-joyride-cdp-apla-xa-xp.jpg"  className='imgbdr'></img>
                             </div>
         
                             <div className="col-lg-6">
                                 <div id='brdr' className="d-flex flex-column align-items-center ">
         
-                                    <img src={logo} alt="" />
+                                    <img src={logo} className='logo' alt="" />
         
         
                                     <Form>
                                         <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
                                             <Form.Label style={{ fontFamily: 'PT Sans' }}>Username</Form.Label>
-                                            <Form.Control style={{ borderColor: '#2b2b2b' }} type="text" placeholder="Enter your username" value={userInputs.username} onChange={e => setUserInputs({ ...userInputs, username: e.target.value })} />
+                                            <Form.Control style={{ borderColor: '#2b2b2b' }} type="text" className='inp' placeholder="Enter your username" value={userInputs.username} onChange={e => setUserInputs({ ...userInputs, username: e.target.value })} />
                                         </Form.Group>
                                         <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
                                             <Form.Label style={{ fontFamily: 'PT Sans' }}>Email</Form.Label>
