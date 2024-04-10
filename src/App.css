@@ -1,0 +1,92 @@
+.div{
+  background-image: url("https://png.pngtree.com/background/20220729/original/pngtree-wave-background-vector-wallpaper-picture-image_1874512.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+#btn{
+  background-color: brown;
+  color: white;
+  font-size: large;
+  margin: 40px;
+}
+#col1{
+  background-color: rgb(186, 55, 55);
+}
+#brdr{
+  
+  margin-left: -25px;
+}
+.imgbdr{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.frmbdr{
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.brd2{
+  width: 80%;
+  margin: auto;
+  height: 613px;
+  border-radius: 30px;
+  border: 1px solid;
+  
+}
+.mainDiv{
+  padding-top: 150px;
+}
+.lfull{
+  background-image: linear-gradient(to bottom right,bisque,red,white);
+}
+.fullbody{
+  width: 100%;
+  background-image: linear-gradient(to bottom right, bisque 10%, grey 80%,red 5%);
+}
+.hd1{
+  letter-spacing: 40px;
+  margin: auto;
+  font-size: 95px;
+  opacity: 80%;
+}
+.bdy{
+  margin: auto;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+.about,.collection,.testimonials,.form,.footer,.i1,.head{
+  margin: auto;
+  
+  
+}
+.active{
+  color: brown;
+  display: block;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.bg1{
+  background-color: rgba(224, 213, 213, 0.455);
+}
+.about,.testimonials{
+  background-image: linear-gradient(to bottom right,white,rgba(227, 178, 213, 0.981),white);
+}
+h1,h2,h3,h4,h5,#n1,#n2,#n3,#n4,#n5{
+  font-family: "Orbitron", sans-serif;
+}
+.head{
+  position: fixed;
+  left: 60px;
+  z-index: 99999;
+}
+.name{
+  background-color: rgb(69, 69, 212);
+  border-radius: 50%;
+}
+.mainDiv{
+  overflow-x: hidden;
+}
